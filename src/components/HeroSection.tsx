@@ -1,5 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/logo.png";
+import { openWhatsApp } from "@/lib/whatsapp";
 
 const HeroSection = () => {
   return (
@@ -23,15 +24,14 @@ const HeroSection = () => {
         <p className="font-body text-lg md:text-xl text-secondary-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           Projetos exclusivos em metal e madeira, feitos para durar.
         </p>
-        <a
-          href="https://wa.me/5541992293719?text=Olá! Gostaria de solicitar um orçamento."
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          type="button"
+          onClick={() => openWhatsApp()}
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-display text-lg uppercase tracking-wide px-8 py-4 rounded-sm hover:brightness-110 transition-all animate-fade-in-up"
           style={{ animationDelay: "0.4s" }}
         >
           Solicitar Orçamento
-        </a>
+        </button>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">

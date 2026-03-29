@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import { openWhatsApp } from "@/lib/whatsapp";
 
 const CtaSection = () => {
   return (
@@ -11,15 +12,14 @@ const CtaSection = () => {
         <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
           Entre em contato pelo WhatsApp e receba um orçamento personalizado. Atendemos todo o Brasil.
         </p>
-        <a
-          href="https://wa.me/5541992293719?text=Olá! Gostaria de solicitar um orçamento."
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          type="button"
+          onClick={() => openWhatsApp()}
           className="inline-flex items-center gap-3 bg-primary text-primary-foreground font-display text-lg uppercase tracking-wide px-10 py-5 rounded-sm hover:brightness-110 transition-all"
         >
           <MessageCircle className="w-6 h-6" />
           Fale Conosco no WhatsApp
-        </a>
+        </button>
       </div>
     </section>
   );
