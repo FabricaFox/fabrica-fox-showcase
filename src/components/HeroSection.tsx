@@ -24,7 +24,7 @@ const HeroSection = () => {
           Projetos exclusivos em metal e madeira, feitos para durar.
         </p>
         <a
-          href="https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento."
+          href="https://wa.me/5541992293719?text=Olá! Gostaria de solicitar um orçamento."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-display text-lg uppercase tracking-wide px-8 py-4 rounded-sm hover:brightness-110 transition-all animate-fade-in-up"
