@@ -34,9 +34,11 @@ const HeroSection = () => {
         </a>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center pt-2">
-          <div className="w-1 h-3 bg-primary rounded-full" />
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+        <div className="animate-bounce">
+          <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center pt-2">
+            <div className="w-1 h-3 bg-primary rounded-full" />
+          </div>
         </div>
       </div>
     </section>
