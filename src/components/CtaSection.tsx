@@ -12,7 +12,7 @@ const CtaSection = () => {
           Entre em contato pelo WhatsApp e receba um orçamento personalizado. Atendemos todo o Brasil.
         </p>
         <a
-          href="https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento."
+          href="https://wa.me/5541992293719?text=Olá! Gostaria de solicitar um orçamento."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-primary text-primary-foreground font-display text-lg uppercase tracking-wide px-10 py-5 rounded-sm hover:brightness-110 transition-all"
