@@ -1,4 +1,4 @@
-import { MapPin, MessageCircle, Phone } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { openWhatsApp } from "@/lib/whatsapp";
 
@@ -26,6 +26,18 @@ const ContactSection = () => {
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
                 <span>(41) 99229-3719</span>
+              </li>
+              <li className="flex items-center gap-3 text-secondary-foreground">
+                <Mail className="w-5 h-5 text-primary shrink-0" />
+                <a href="mailto:vendas@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
+                  vendas@fabricafox.com.br
+                </a>
+              </li>
+              <li className="flex items-center gap-3 text-secondary-foreground">
+                <Mail className="w-5 h-5 text-primary shrink-0" />
+                <a href="mailto:sac@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
+                  sac@fabricafox.com.br
+                </a>
               </li>
               <li className="flex items-start gap-3 text-secondary-foreground">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
