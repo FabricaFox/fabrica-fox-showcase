@@ -28,7 +28,7 @@ const AboutSection = () => {
             Força, Design e <span className="text-primary">Personalização</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mt-6 text-lg">
-            A Fabrica Fox nasceu da paixão por criar móveis que combinam a robustez do aço com a elegância da madeira. Cada peça é pensada e construída à mão.
+            A Fábrica Fox nasceu da paixão por criar móveis que combinam a robustez do aço com a elegância da madeira. Cada peça é pensada e construída à mão.
           </p>
         </div>
 

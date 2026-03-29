@@ -16,8 +16,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <img src={logo} alt="Fabrica Fox" className="w-10 h-10 object-contain" />
-          <span className="font-display text-lg font-bold uppercase tracking-wide">Fabrica Fox</span>
+          <img src={logo} alt="Fábrica Fox" className="w-10 h-10 object-contain" />
+          <span className="font-display text-lg font-bold uppercase tracking-wide">Fábrica Fox</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
