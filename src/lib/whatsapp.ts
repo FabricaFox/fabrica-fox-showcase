@@ -15,15 +15,13 @@ export const getWhatsAppUrl = (message: string = DEFAULT_MESSAGE) => {
 
 export const openWhatsApp = (message?: string) => {
   const url = getWhatsAppUrl(message);
-  const link = document.createElement("a");
 
-  link.href = url;
-  link.rel = "noopener noreferrer";
-  link.target = window.self !== window.top ? "_top" : "_blank";
+  if (window.self !== window.top) {
+    window.top?.location.assign(url);
+    return;
+  }
 
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
+  window.open(url, "_blank", "noopener,noreferrer");
 };
 
 export { DEFAULT_MESSAGE, WHATSAPP_NUMBER };
