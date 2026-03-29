@@ -1,5 +1,6 @@
 import { MapPin, MessageCircle, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
+import { openWhatsApp } from "@/lib/whatsapp";
 
 const ContactSection = () => {
   return (
@@ -18,9 +19,9 @@ const ContactSection = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <MessageCircle className="w-5 h-5 text-primary shrink-0" />
-                <a href="https://wa.me/5541992293719" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                <button type="button" onClick={() => openWhatsApp()} className="hover:text-primary transition-colors text-left">
                   WhatsApp: (41) 99229-3719
-                </a>
+                </button>
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
