@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <img
           src={logo}
-          alt="Fabrica Fox - Móveis Industriais"
+          alt="Fábrica Fox - Móveis Industriais"
           className="w-40 h-40 mx-auto mb-8 object-contain animate-fade-in-up"
         />
         <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-wider mb-6 animate-fade-in-up">
