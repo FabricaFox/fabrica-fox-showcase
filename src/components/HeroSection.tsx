@@ -15,7 +15,7 @@ const HeroSection = () => {
         <img
           src={logo}
           alt="Fábrica Fox - Móveis Industriais"
-          className="w-40 h-40 mx-auto mb-8 object-contain animate-fade-in-up"
+          className="w-56 h-56 md:w-64 md:h-64 mx-auto mb-8 object-contain animate-fade-in-up"
         />
         <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-wider mb-6 animate-fade-in-up">
           Móveis Industriais{" "}
