@@ -1,5 +1,5 @@
 import { Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-mark.png";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 const ContactSection = () => {
