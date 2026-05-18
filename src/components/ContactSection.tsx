@@ -29,14 +29,8 @@ const ContactSection = () => {
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:vendas@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
-                  vendas@fabricafox.com.br
-                </a>
-              </li>
-              <li className="flex items-center gap-3 text-secondary-foreground">
-                <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:sac@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
-                  sac@fabricafox.com.br
+                <a href="mailto:falecom@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
+                  falecom@fabricafox.com.br
                 </a>
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
