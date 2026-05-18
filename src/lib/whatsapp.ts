@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5541992293719";
+const WHATSAPP_NUMBER = "5541988870727";
 const DEFAULT_MESSAGE = "Olá! Gostaria de solicitar um orçamento.";
 
 const isMobileDevice = () => /Android|iPhone|iPad|iPod|Mobile/i.test(window.navigator.userAgent);

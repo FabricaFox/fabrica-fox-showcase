@@ -20,23 +20,17 @@ const ContactSection = () => {
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <MessageCircle className="w-5 h-5 text-primary shrink-0" />
                 <button type="button" onClick={() => openWhatsApp()} className="hover:text-primary transition-colors text-left">
-                  WhatsApp: (41) 99229-3719
+                  WhatsApp: (41) 98887-0727
                 </button>
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <span>(41) 99229-3719</span>
+                <span>(41) 98887-0727</span>
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:vendas@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
-                  vendas@fabricafox.com.br
-                </a>
-              </li>
-              <li className="flex items-center gap-3 text-secondary-foreground">
-                <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:sac@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
-                  sac@fabricafox.com.br
+                <a href="mailto:falecom@fabricafox.com.br" className="hover:text-primary transition-colors text-sm">
+                  falecom@fabricafox.com.br
                 </a>
               </li>
               <li className="flex items-center gap-3 text-secondary-foreground">
