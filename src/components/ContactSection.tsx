@@ -1,4 +1,4 @@
-import { Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import logo from "@/assets/logo-mark.png";
 import { openWhatsApp } from "@/lib/whatsapp";
 
@@ -37,6 +37,12 @@ const ContactSection = () => {
                 <Instagram className="w-5 h-5 text-primary shrink-0" />
                 <a href="https://instagram.com/fabrica_fox" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors text-sm">
                   @fabrica_fox
+                </a>
+              </li>
+              <li className="flex items-center gap-3 text-secondary-foreground">
+                <Facebook className="w-5 h-5 text-primary shrink-0" />
+                <a href="https://www.facebook.com/FabricaFox" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors text-sm">
+                  FabricaFox
                 </a>
               </li>
               <li className="flex items-start gap-3 text-secondary-foreground">
